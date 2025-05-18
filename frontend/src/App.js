@@ -21,7 +21,7 @@ function App() {
 
     setLoading(true);
     try {
-      const res = await axios.post('https://image-recognition-mini-project-backend.onrender.com', formData);
+      const res = await axios.post('https://image-recognition-mini-prj-backend.onrender.com', formData);
       setPredictions(res.data);
     } catch (err) {
       console.error("Prediction error:", err);
